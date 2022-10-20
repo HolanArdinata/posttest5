@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container {
+
+    display: flex;
+    max-width: 500;
+    background: khaki;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0);
+}
+
+.login {
+    width: 00px;
+}
+
+form {
+    width: 250px;
+    margin: 60px auto;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+hr {
+    border-top: 2px solid #ffa600;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+
+
+form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+input {
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: black;
+    font-family: Poppins, sans-serif;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background: gray;
+}
+
+@media (max-width: 880px){
+    .container {
+        width: 100%;
+        max-width: 750px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+form {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.login {
+    width: 400px;
+    padding: 20px;
+}
+
+button {
+    width: 100%;
+}
